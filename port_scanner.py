@@ -3,8 +3,10 @@ import sys
 import socket
 from datetime import datetime
 
-banner = pyfiglet.figlet_format("PORT SCANNER")
+banner = pyfiglet.figlet_format("PORT SCANNER",font="slant")
+print("\n\n+-+-+-+-+-+ \n Made by:\n+-+-+-+-+-+ +-+-+-+-+-+ \n Kutay KOCA\n+-+-+-+-+-+ +-+-+-+-+-+ \n\n")
 print(banner)
+
 
 target = input(str("Target IP: "))
 
